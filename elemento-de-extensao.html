@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento de Extensão</title>
+    <link rel="stylesheet" href="elemento-de-extensao.css">
+</head>
+
+<body>
+    <!--
+        *Às vezes, queremos estilizar apenas uma pequena parte de uma página da web, como apenas algumas palavras. Vamos aprender como fazer isso usando a tag <span>.
+        *O elemento <span> é usado para aplicar estilos a partes do texto. 
+        *Estilizamos partes do texto em uma página da web usando uma tag de abertura <span>, seguida de texto e depois uma tag de fechamento </span>.
+    -->
+    <H2>Melhores times Paulistas</H2>
+    <ul>
+        <li>Santos é o melhor</li>
+        <li>São Paulo é furada</li>
+        <li>Curinthians só tem 1 Mundial</li>
+        <li>Palmeiras não tem <span style="color: #a8561e;">Mundial</span></li>
+    </ul>
+
+    <!-- 
+        *Como com outros elementos, podemos usar o seletor de tags <span> para estilizar todas as tags <span> ao mesmo tempo. Isso será feito no arquivo CSS
+            span {
+    color: #0078e6;
+}
+    -->
+    <H2>Melhores times Paulistas</H2>
+    <ul>
+        <li>Santos é o <span>melhor</span></li>
+        <li>São Paulo é <span>furada</span></li>
+        <li>Curinthians só tem 1 <span>Mundial</span></li>
+        <li>Palmeiras não tem <span>Mundial</span></li>
+    </ul>
+
+    <!--
+            *Se houver muitos elementos <span> diferentes em uma página de web, podemos usar seletores de ID ou CLASSES para aplicar estilos diferentes.
+            *Podemos então adicionar estilos diferentes aos seletores de classe para criar páginas da web mais intuitivas. 
+            *Podemos         
+    -->
+    <H2>Melhores times Paulistas</H2>
+    <ul>
+        <li>Santos é o <span class="santos">melhor</span></li>
+        <li>São Paulo é <span class="sao-paulo">furada</span></li>
+        <li>Curinthians só tem 1 Mundial</li>
+        <li>Palmeiras não tem <span class="palmeiras">Mundial</span></li>
+    </ul>
+</body>
+
+</html>
