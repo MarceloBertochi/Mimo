@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Pais e Filhos</title>
+    <link rel="stylesheet" href="elementos-pais-filhos.css">
+</head>
+
+<body>
+    <!--
+        *Aprendemos que o HTML usa algo chamado de caixa. O fato é que tudo em HTML é considerado uma caixa dentro da outra. 
+        *Quando adicionamos um elemento <DIV> ao redor de outros elementos, colocamos uma caixa maior ao redor de outras caixas.
+        *Como o elemento <div> tem outro elemento aninhado dentro dele, nós chamamos de elemento pai. O elemento <p> dentro dele é chamado de elemento filho.
+        *Quando adicionamos mais paragrafos dentro do elemento <div>, teremos 3 elementos filhos dentro do elemento pai <div>.
+        Quando estilizamos um elemento pai, existem algumas propriedades que afetam apenas o pai, como border, padding, margin. 
+        *No CSS:
+        div{
+        border: solid 3px lightgray;
+        }
+
+        *Mas outras propriedades, como color, font-weidght, são transferidas para os elementos filhos de seu pai.
+        No CSS:
+        div{
+        border: solid 3px lightgray;
+        color: brown;
+        font-weight: bold
+        }
+    -->
+    <div>
+        <p>Santos o Melhor time do Mundo</p>
+        <p>São Paulo é fraquinho</p>
+        <p>Palmeiras não tem mundial</p>
+    </div>
+</body>
+
+</html>
