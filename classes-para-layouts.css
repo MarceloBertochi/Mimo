@@ -1,0 +1,18 @@
+div {
+    border: solid 3px lightgray;
+    color: brown;
+    font-weight: bold;
+}
+.santos {
+    color: red;
+}
+.times{
+    background-color: orange;
+    padding: 10px;
+}
+.rebaixamento{
+    border: solid 3px darkgreen;
+    padding: 20px;
+}
+
+
