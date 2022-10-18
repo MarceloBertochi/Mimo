@@ -1,0 +1,11 @@
+button {
+    display: inline-block;
+    height: 50px;
+    width: 120px;
+}
+em {
+    display: block;
+    background-color: #efa536;
+    width: 100px;
+    text-align: center;
+}
