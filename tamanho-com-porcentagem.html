@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho com Porcentagem</title>
+    <link rel="stylesheet" href="tamanho-com-porcentagem.css">
+</head>
+<body>
+    <h1>Cães da raça Rottweiler</h1>
+    <!--
+        *Definir o tamanho dos elementos usando valores absolutos, como 200px, significa que eles têm exatamente o mesmo tamanho em qualquer tela. 
+        Código no CSS
+        img{
+        width: 200px;
+        }
+           -->
+        <img src="imagens/aisha.png" alt="Rottweiler">
+
+    <!--
+       *Podemos dimensionar um elemento em relação ao seu pai usando uma porcentagem.
+        Aqui, 100% significa que a imagem ocupa 100% da largura do elemento do body.
+         Código no CSS
+        img{
+        width: 100%;
+        }
+    -->
+    <img src="imagens/aisha.png" class="figura2" alt="Rottweiler">
+
+    <!--
+        Definir width para 50% ocupa metade do elemento do body, ou seja, metade da página da web.
+         Código no CSS
+        img{
+        width: 50%;
+        }
+    -->
+    <img src="imagens/aisha.png" class="figura3" alt="Rottweiler">
+
+    <!--
+         Agora vamos tentar fazer de um elemento div o pai da imagem para tentar algo diferente.
+         Para ver como as porcentagens dependem do elemento pai, defina a width do div para 250px
+    -->
+    <div class="figura4">
+        <img src="imagens/aisha.png" alt="Rottweiler">
+    </div>
+
+    <!--
+        Definir o tamanho da imagem para 50% significa que ela terá metade da largura do elemento pai. Isso significa que a imagem agora tem 125px de largura. 
+    -->
+    <div class="figura5">
+        <img src="imagens/aisha.png" alt="Rottweiler">
+    </div>
+</body>
+</html>

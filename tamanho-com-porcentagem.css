@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+    margin: auto;
+}
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: chartreuse;
+}
+img{
+    width: 50%;
+}
+
+.figura2{
+    width: 100%;
+}
+
+.figura3{
+    width: 50%;
+}
+
+.figura4 {
+border: 1px solid lightblue;    
+width: 250px;
+}
+.figura5 {
+    border: 1px solid lightblue;    
+    width: 50%;
+    }
