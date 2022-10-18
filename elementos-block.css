@@ -1,0 +1,7 @@
+h3 {
+    background-color: lightslategray;
+}
+p {
+    display: block;
+    border: solid 2px black;
+}
