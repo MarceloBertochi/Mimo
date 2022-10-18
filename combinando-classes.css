@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+}
+.color{
+    color: green;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
