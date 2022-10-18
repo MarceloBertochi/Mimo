@@ -1,0 +1,16 @@
+img {
+    width: 300px;
+    position: absolute;   
+}
+.rott {
+    width: 200px;
+    z-index: 1;
+    top: 55px;
+    left: 109px;
+}
+.rott2 {
+    width: 150px;
+    z-index: 2;
+    top: 252px;
+    left: 155px;
+}
