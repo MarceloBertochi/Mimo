@@ -1,0 +1,9 @@
+p {
+    background-color: orange;
+}
+
+strong {
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
